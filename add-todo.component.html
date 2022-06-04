@@ -1,0 +1,16 @@
+<div id="new" class="container-fluid my-4">
+    <h2>Add a Task</h2>
+    </div>
+    <div id="new2" class="container-fluid my-3">
+    <form (ngSubmit)="onSubmit()">
+        <div class="form-group">
+          <label for="title">Task Title</label>
+          <input type="text" [(ngModel)]="title" class="form-control" name="title" id="title" aria-describedby="emailHelp">
+        </div>
+        <div class="form-group">
+          <label for="desc">Description</label>
+          <input type="textarea" class="form-control" name="desc" id="desc" [(ngModel)]="desc">
+        </div>
+        <button type="submit" class="btn btn-sm">Add</button>
+      </form>
+</div> 
