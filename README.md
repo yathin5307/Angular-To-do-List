@@ -1,6 +1,6 @@
 # Angular-To-do-List
 A To-do List using Angular node
-Home Page
+Home Page -
 Adding Task:
 ![image](https://user-images.githubusercontent.com/75771983/171995429-04f292d0-82f8-4ffe-a0ed-d30a850eb62c.png)
 Viewing Tasks:
